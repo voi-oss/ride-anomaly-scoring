@@ -1,0 +1,15 @@
+pandas==2.3.0
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.3
+pyarrow==20.0.0
+joblib==1.5.1
+fire==0.7.0
+pre-commit==4.2.0
+scikit-learn==1.7.0
+torch==2.9.1
+lightning==2.5.6
+scrapbook==0.5.0
+statsmodels==0.14.6
+papermill==2.6.0
+pyod==2.0.6
