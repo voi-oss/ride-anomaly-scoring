@@ -3,8 +3,9 @@
 <p align="center">
   <a href="https://ecmlpkdd.org/2026/"><img src="https://img.shields.io/badge/ECML%20PKDD%202026-Accepted-blue?style=flat-square" alt="ECML PKDD 2026 Accepted"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Code%20License-MIT-green?style=flat-square" alt="Code License"/></a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-yellow?style=flat-square" alt="Python 3.10+"/>
-  <img src="https://img.shields.io/badge/PyTorch-2.9%2B-red?style=flat-square" alt="PyTorch 2.9+"/>
+  <a href="LICENSE-CC-BY-4.0.txt"><img src="https://img.shields.io/badge/Data%20License-CC%20BY%204.0-orange?style=flat-square" alt="Data License"/></a>
+  <img src="https://img.shields.io/badge/Python-3.10-yellow?style=flat-square" alt="Python 3.10"/>
+  <img src="https://img.shields.io/badge/PyTorch-2.9.1-red?style=flat-square" alt="PyTorch 2.9.1"/>
 </p>
 
 ![Pipeline overview](img/pipeline.png)
