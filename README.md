@@ -1,4 +1,14 @@
 # Ride anomaly scoring
+
+<p align="center">
+  <a href="https://ecmlpkdd.org/2026/"><img src="https://img.shields.io/badge/ECML%20PKDD%202026-Accepted-blue?style=flat-square" alt="ECML PKDD 2026 Accepted"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Code%20License-MIT-green?style=flat-square" alt="Code License"/></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-yellow?style=flat-square" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/PyTorch-2.9%2B-red?style=flat-square" alt="PyTorch 2.9+"/>
+</p>
+
+![Pipeline overview](img/pipeline.png)
+
 Code and data to reproduce the results from "Unsupervised Anomaly Scoring of E-Scooter Inertial Signals for Safety Quantification" accepted at [ECML PKDD 2026](https://ecmlpkdd.org/2026/). The method assigns each e-scooter ride an anomaly score from raw IMU data — a 3-axis accelerometer and 3-axis gyroscope sampled at 10 Hz — without supervision, where higher scores indicate more reckless, crash-prone riding.
 
 **Pipeline:** Raw IMU → FIR low-pass denoising → STFT spectrograms → time-average pooling → dimensionality reduction → anomaly scoring. We refer to the denoised time-average pooled spectrogram features as DTAPS.
@@ -17,6 +27,7 @@ Code and data to reproduce the results from "Unsupervised Anomaly Scoring of E-S
     - [GBG500 — Average Precision (30 seeds, 5-fold stratified CV)](#gbg500--average-precision-30-seeds-5-fold-stratified-cv)
     - [GBG500 — Latent space (DTAPS + AE, out-of-fold, median AP seed)](#gbg500--latent-space-dtaps--ae-out-of-fold-median-ap-seed)
     - [SRV3490 — Odds Ratio Analysis (30 seeds, 5-fold group CV, DTAPS + AE + LOF)](#srv3490--odds-ratio-analysis-30-seeds-5-fold-group-cv-dtaps--ae--lof)
+  - [Preprint](#preprint)
   - [How to cite](#how-to-cite)
 
 
@@ -144,6 +155,10 @@ Conditional logistic regression on confirmed-crash vs. matched-baseline rides (4
 |-----------------------|-------------------|------------------|-----------|
 | Continuous (per 1-SD) | 2.44 [2.38, 2.53] | 2.1 × 10⁻⁶⁰      | 100%      |
 | Top 5 %               | 4.70 [4.24, 5.16] | 2.2 × 10⁻²⁰      | 100%      |
+
+## Preprint
+
+Coming soon.
 
 ## How to cite
 
