@@ -30,6 +30,7 @@ Code and data to reproduce the results from "Unsupervised Anomaly Scoring of E-S
     - [SRV3490 — Odds Ratio Analysis (30 seeds, 5-fold group CV, DTAPS + AE + LOF)](#srv3490--odds-ratio-analysis-30-seeds-5-fold-group-cv-dtaps--ae--lof)
   - [Preprint](#preprint)
   - [How to cite](#how-to-cite)
+  - [License](#license)
 
 
 ## Prerequisites
@@ -164,3 +165,7 @@ Coming soon.
 ## How to cite
 
 This work has been accepted at [ECML PKDD 2026](https://ecmlpkdd.org/2026/) (Naples, Italy, 7–11 September 2026). A suggested citation will be provided as soon as the proceedings are published.
+
+## License
+- **Code**: [MIT](LICENSE).
+- **Data** (`data/`): [CC BY 4.0](LICENSE-CC-BY-4.0.txt).
